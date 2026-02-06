@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<meta name="viewport" ; content="width=device-width, initial-scale=1.0" />
+<html>
+  <head>
+    <title>A Small Note:p</title>
+
+    <style>
+      body {
+        background: #fff0f5;
+        font-family: lucida calligraphy;
+        text-align: center;
+        padding-top: 100px;
+      }
+      .card {
+        background: white;
+        width: 360px;
+        margin: auto;
+        padding: 25px;
+        border-radius: 15px;
+      }
+      button {
+        margin: 10px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        background-color: #e91e63;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2>I Just wanted To Say</h2>
+      <p>You make everything feel lighter and brighter.</p>
+      <p id="hidden">Click The Button</p>
+      <button onclick="showMsg()">Click Me:p</button>
+      <br /><br />
+      <a href="page3.html">
+        <button>Another one? hehe:p</button>
+      </a>
+    </div>
+    <script>
+      function showMsg() {
+        document.getElementById("hidden").innerHTML =
+          "You Are Appreciated, Very much, Genuinely, And, I Do Love You, Alot. I don't think i should say but this is the last time so please bear with it";
+      }
+    </script>
+  </body>
+</html>
